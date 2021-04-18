@@ -1,0 +1,57 @@
+body {
+    background-color: #366141;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.white-keys kbd{
+    width: 50px;
+    height: 150px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    border: 3px solid;
+    margin-left: -.36em;
+}
+
+.black-keys kbd{
+    position: relative;
+    width: 25px;
+    height: 100px;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-left: -.36em;
+    z-index: 2;
+    bottom: 155px;
+}
+
+.black-keys kbd:first-child {
+    margin-left: 38px;
+}
+
+.black-keys kbd:nth-child(2) {
+    margin-left: 26px;
+}
+
+.black-keys kbd:nth-child(3) {
+    margin-left: 82px;
+}
+
+.black-keys kbd:nth-child(4) {
+    margin-left: 26px;
+}
+
+.black-keys kbd:nth-child(5) {
+    margin-left: 26px;
+}
+
+
+
+
